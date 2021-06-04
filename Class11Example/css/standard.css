@@ -87,6 +87,8 @@ main a:hover {
 	transform: translate(-50%, -50%);
 	background-color: white;
 	color: black;
+	display: flex;
+	width: 80%;
 }
 
 .teaser > div {
