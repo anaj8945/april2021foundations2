@@ -2,34 +2,10 @@ html {
     font-size: xx-large;
 }
 
-#mobile-nav {
-    display: block;
-    position: fixed;
-    top: 0.5em;
-    right: 0.5em;
-    height: 5vh;
-    width: 5vh;
-    z-index: 10;
-    padding: 0;
-}
-
-#home {
-    background-position: center top;
-    right: 0;
-}
-
 #nav:target {
 	width: 12ch;
 	height: 7em;
 	padding: 0.2em;
-}
-
-nav {
-    flex-direction: column;
-    top: calc(5vh + .5em);
-    width: 0;
-    overflow: hidden;
-    transition: all .5s;
 }
 
 nav > a {
@@ -64,4 +40,9 @@ article {
 
 .tagline {
     white-space: nowrap;
+}
+
+footer {
+    color: #fff; 
+    bottom: 0;
 }
