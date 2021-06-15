@@ -115,15 +115,12 @@ main a:hover {
 	margin-right: 0.25em;
 }
 
-#mobile-nav, #mobile-trigger, #bonus {
-    display: none;
-}
+/*
+======
+mobile
+======
+*/
 
-#bonus {
-    display: block;
-    margin-top: 3em;
-}
-
-#mobile-nav, #mobile-trigger, #bonus, .bonus-img {
+#mobile-nav, #mobile-trigger {
     display: none;
 }
