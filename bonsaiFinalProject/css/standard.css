@@ -114,7 +114,7 @@ Home
 	padding-top: 0;
 }
 
-article {
+section {
 	padding-left: 20vw;
 	padding-right: 20vw;
 	padding-top: 4rem;
@@ -279,7 +279,7 @@ history
     height: 100vh;
 	box-sizing: border-box;
 	text-align: left;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 20;
