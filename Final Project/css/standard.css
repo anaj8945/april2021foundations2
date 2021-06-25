@@ -33,7 +33,7 @@ nav > a {
     padding-left: 1em;
     text-decoration: none;
     font-weight: 700;
-    text-shadow: 2px 2px #413e3e;
+    text-shadow: 2px 2px #000000;
 }
 
 /*
@@ -273,3 +273,10 @@ contact
     top: -10px;
     width: 26px;
 }
+
+/*
+===
+mobile
+===
+*/
+
