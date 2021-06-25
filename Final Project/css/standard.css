@@ -1,6 +1,7 @@
 html {
     font-family: "Montserrat", sans-serif;
     color: black;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -89,27 +90,28 @@ h1 {
 
 h2 {
     font-size: 2em;
+    padding-top: 1em;
     font-weight: 700;
 }
 
 span {
     color:rgb(255, 176, 5);
     text-shadow: 2px 2px #413e3e;
-
 }
 
 .netflix {
+    bottom: 5em;
     background: transparent;
-    display: inline-block;
     font-size: 10px;
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    vertical-align: text-top;
 }
 
 .netflix:hover {
     transition: 0.9s;
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 
 /*
