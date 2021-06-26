@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </head>
-<body>
+<body id="types">
     <header>
         <nav id="nav">
             <a href="index.html">HOME</a>
@@ -23,6 +23,53 @@
             <a href="about.html">ABOUT</a>
         </nav>
     </header>
+    <section id="typescontainer">
+        <div>
+            <h1>TYPES OF BONSAI</h1>
+            <p id="intro">
+            Just like humans, bonsai tress come in many different shapes and sizes.
+            The type of tree you get is dependant on the breed but you can alter the shape
+            very easily and make it fit your style.
+            </p>
+        </div>
+        <div class="slideshow-container">
+            <div class="myslides">
+                <div class="number">1 / 5</div>
+                <img class="image" src="css/images/boxwood.png" >
+                <div class="text">Boxwood Bonsai</div>
+            </div>
+            <div class="myslides">
+                <div class="number">2 / 5</div>
+                <img class="image" src="css/images/fig.jpg" >
+                <div class="text">Fig Bonsai</div>
+            </div>
+            <div class="myslides">
+                <div class="number">3 / 5</div>
+                <img class="image" src="css/images/brazilian-rain-bonsai-tree.jpg">
+                <div class="text">Brazilian Rain Bonsai</div>
+            </div>
+            <div class="myslides">
+                <div class="number">4 / 5</div>
+                <img class="image" src="css/images/juniper.jpg">
+                <div class="text">Juniper Bonsai</div>
+            </div>
+            <div class="myslides">
+                <div class="number">5 / 5</div>
+                <img class="image" src="css/images/snow.jpg">
+                <div class="text">Juniper Bonsai</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
     <footer class="primary-footer container group">
         <small>&copy; 2021 MTZ Producations, all rights reserved.</small>
     </footer>
